@@ -84,3 +84,4 @@ return 0;
 ```
 出力
 ![](/images/1.png)
+![](makefile)
