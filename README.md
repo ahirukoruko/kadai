@@ -1,5 +1,6 @@
-## 問1
+# 問1
 
+## ソースコード
 ```C
 #include <stdio.h>
 #include <math.h>
@@ -82,6 +83,18 @@ printf("(4)%d\n",kakkoyon(n,m));
 return 0;
 }
 ```
+
+## makefile
+```
+# makefile
+.PHONY : clean
+
+kadai1.out : kadai.c
+    gcc -o kadai1.out kadai.c
+do :
+    ./kadai1.out
+clean :
+    rm kadai1.out
+```
 出力
 ![](/images/1.png)
-![](makefile)
