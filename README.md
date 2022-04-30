@@ -96,5 +96,5 @@ do :
 clean :
     rm kadai1.out
 ```
-出力
+## 出力
 ![](/images/1.png)
